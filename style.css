@@ -1,1 +1,151 @@
-/* Here goes your CSS */
+body {
+  background-color: #F9F7F7;
+  font-family: Helvetica, Arial;
+  color: #112D4E;
+  font-size: 14px;
+  line-height: 1em;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -2;
+  font-style: italic;
+
+}
+
+h2, h3 {
+  font-family: 'Varela Round', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #112D4E;
+}
+
+a {
+  color: #3F72AF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #112D4E;
+  text-decoration: none;
+/*  font-size: 14px;*/
+}
+
+.img-flexible {
+  width: 100%;
+}
+
+
+th, td {
+  padding: 10px;
+}
+
+.icon-large {
+  font-size: 52px;
+}
+
+.container {
+  width: 700px;        /* Set the width */
+  margin: 0 auto;      /* Set automatic margins on right/left */
+}
+
+.card {
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  margin-bottom: 10px;
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-no-margin-padding-bottom {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.text-no-margin-padding-top {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.text-align-right {
+  display: block;
+  margin-left: auto;
+}
+
+.text-dark-blue {
+  color: #112D4E;
+}
+
+.text-mid-blue {
+  color: #3F72AF;
+}
+
+.text-light-blue {
+  color: #DBE2EF;
+}
+
+.img-rounded {
+  border-radius: 50%;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#profile_image {
+  width: 200px;
+/*  height: 200px;*/
+}
+
+#projects img{
+  width: 200px;
+}
+
+@keyframes fade {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes no-opacity {
+    from {opacity: 0}
+    to {opacity: 0}
+}
+
+.fade1 {
+  animation: fade ease-in 1s;
+}
+
+.fade2 {
+  animation: fade ease-in 2s;
+}
+
+.fade3 {
+  animation: fade ease-in 3s;
+}
+
+
+
+
+
